@@ -31,7 +31,7 @@ export default class Client {
             shards: node.shards, // NODE1=250, NODE2=500, NODE3=750, NODE4=1000, NODE5=1250
             firstShardID: node.firstShardID, // NODE1=0, NODE2=250, NODE3=500, NODE4=750, NODE5=1000
             lastShardID: node.shards, // NODE1=250, NODE2=500, NODE3=750, NODE4=1000, NODE5=1250
-            //guildPerShard: 2500,
+            //guildsPerShard: 2500,
             debug: true,
             name: "Moyai",
             setMaxListeners: 0,
